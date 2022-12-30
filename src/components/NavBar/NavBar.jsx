@@ -15,6 +15,9 @@ export default function NavBar() {
         <li className="navbaritems">
           <Link to="/faqs" className="navlinks">PREGUNTAS FRECUENTES</Link>
         </li>
+        <li className="navbaritems">
+          <Link to="/contacto" className="navlinks">CONTACTO</Link>
+        </li>
       </ul>
     </>
   );

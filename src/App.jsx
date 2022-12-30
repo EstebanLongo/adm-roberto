@@ -6,6 +6,7 @@ import Info from "./components/Informacion/Info.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Faqs from "./components/Faqs/Faqs.jsx";
 import LandingPage from "./components/LandingPage/LandingPage";
+import Contacto from "./components/Contacto/Contacto";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/info" element={<Info />} />
         <Route path="/faqs" element={<Faqs />} />
+        <Route path="/contacto" element={<Contacto />} />
       </Routes>
     </div>
   );

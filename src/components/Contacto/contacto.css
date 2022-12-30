@@ -1,0 +1,25 @@
+.contactform {
+  height: 24rem;
+  width: max-content;
+  /* background-color: aqua; */
+  margin: 0 auto;
+}
+
+.divformcontact {
+  height: 5rem;
+}
+
+.inputcontactform {
+  height: 2rem;
+  width: 22rem;
+  margin: 1rem;
+  background: none;
+  border-bottom: black solid 1px;
+}
+
+.mensajecontactform {
+  height: 10rem;
+  width: 46rem;
+  border-bottom: black solid 1px;
+  resize: none;
+}
