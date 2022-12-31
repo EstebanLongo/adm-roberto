@@ -58,10 +58,26 @@ export default function Faqs() {
               </Box>
               <VStack align={"start"}>
                 <Text fontWeight={600}>
-                  Puede ser consumida por una persona con hipertensión
+                  ¿Puede ser consumida por una persona con hipertensión
                   arterial.?
                 </Text>
-                <Text color={"gray.600"}>
+                <Text color={"gray.600"} align={"start"}>
+                  Si, se puede beber ya que en sus componentes hay sodio y
+                  cloro, pero están separados, a diferencia de la sal de mesa,
+                  que están unidos. De esta forma están biodisponibles y se
+                  absorben por el sistema digestivo. Estos elementos por si
+                  solos no producen alteraciones en la presión arterial.
+                </Text>
+              </VStack>
+            </HStack>
+            {/* ---------------------------- */}
+            <HStack align={"top"}>
+              <Box color={"green.400"} px={2}>
+                <Icon as={CheckIcon} />
+              </Box>
+              <VStack align={"start"}>
+                <Text fontWeight={600}>¿Los niños pueden consumirla?</Text>
+                <Text color={"gray.600"} align={"start"}>
                   Lorem ipsum loremmsfasd fojsadnfojansd fojnasdf
                 </Text>
               </VStack>
@@ -72,8 +88,25 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600}>Los niños pueden consumirla?</Text>
-                <Text color={"gray.600"}>
+                <Text fontWeight={600}>
+                  ¿Se puede utilizar para nebulización?
+                </Text>
+                <Text color={"gray.600"} align={"start"}>
+                  El agua de mar es un excelente descongestivo. Se puede
+                  utilizar para nebulizar tanto en forma hiper como isotónica.
+                  Con 10 minutos de nebulización, se apreciarán las mejoras en
+                  las vías respiratorias.
+                </Text>
+              </VStack>
+            </HStack>
+            {/* ---------------------------- */}
+            <HStack align={"top"}>
+              <Box color={"green.400"} px={2}>
+                <Icon as={CheckIcon} />
+              </Box>
+              <VStack align={"start"}>
+                <Text fontWeight={600}>¿Tiene vencimiento?</Text>
+                <Text color={"gray.600"} align={"start"}>
                   Lorem ipsum loremmsfasd fojsadnfojansd fojnasdf
                 </Text>
               </VStack>
@@ -84,9 +117,11 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600}>Como se prepara para nebulizar?</Text>
-                <Text color={"gray.600"}>
-                  Lorem ipsum loremmsfasd fojsadnfojansd fojnasdf
+                <Text fontWeight={600}>¿Como se conserva?</Text>
+                <Text color={"gray.600"} align={"start"}>
+                  No hay recomendaciones especiales sobre cómo guardarla, sólo
+                  protegerla de la luz solar para que no favorezca el
+                  crecimiento de algas, lo que tampoco invalidaría su uso.
                 </Text>
               </VStack>
             </HStack>
@@ -96,21 +131,16 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600}>Tiene vencimiento?</Text>
-                <Text color={"gray.600"}>
-                  Lorem ipsum loremmsfasd fojsadnfojansd fojnasdf
+                <Text fontWeight={600}>
+                  Realizo alimentación Keto, con ayuno intermitente. ¿Es útil en
+                  estos casos?
                 </Text>
-              </VStack>
-            </HStack>
-            {/* ---------------------------- */}
-            <HStack align={"top"}>
-              <Box color={"green.400"} px={2}>
-                <Icon as={CheckIcon} />
-              </Box>
-              <VStack align={"start"}>
-                <Text fontWeight={600}>Como se conserva?</Text>
-                <Text color={"gray.600"}>
-                  Lorem ipsum loremmsfasd fojsadnfojansd fojnasdf
+                <Text color={"gray.600"} align={"start"}>
+                  Está absolutamente indicada en estos casos, ya que al realizar
+                  ayuno intermitente, se pierden más liquido y sales por la
+                  orina, por lo que es aconsejable incorporar a la dieta, una
+                  completa fuente de sales. De esta forma se evitan los síntomas
+                  “gripales”, el cansancio y los calambres.
                 </Text>
               </VStack>
             </HStack>

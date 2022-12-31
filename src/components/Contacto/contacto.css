@@ -1,8 +1,39 @@
 .contactform {
-  height: 24rem;
-  width: max-content;
-  /* background-color: aqua; */
+  height: 40rem;
+  width: 65rem;
   margin: 0 auto;
+}
+
+.h1contact {
+  font-size: 38px;
+  font-weight: 500;
+  color: #205685;
+}
+
+.pcontact {
+  color: #205685;
+}
+
+input:invalid {
+  background-color: #ea040429;
+}
+
+input:required:invalid {
+  border: solid 1px;
+  border-color: #ea0404;
+}
+
+/* p.danger {
+  color: red;
+  font-size: 14px;
+  text-decoration: solid;
+  display: flex;
+} */
+
+.titleform {
+  font-size: 32px;
+  font-weight: 400;
+  color: #205685;
 }
 
 .divformcontact {
@@ -22,4 +53,13 @@
   width: 46rem;
   border-bottom: black solid 1px;
   resize: none;
+}
+
+.btnformcontact {
+  background-color: #205685;
+  color: azure;
+  height: 2.5rem;
+  width: 6rem;
+  margin-top: 2rem;
+  margin-left: -40rem;
 }
