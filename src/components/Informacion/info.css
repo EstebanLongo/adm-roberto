@@ -1,0 +1,35 @@
+.divcontainerInfo {
+  /* background-image: url("https://images.pexels.com/photos/1072842/pexels-photo-1072842.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
+  background-image: url("https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60%;
+}
+
+.titleInfo {
+  font-size: 38px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.divInfo {
+  background-color: rgba(100, 148, 237, 0.192);
+  width: 48rem;
+  padding: 1rem;
+  margin: 0 auto;
+  color: azure;
+  font-weight: 400;
+  font-family: "Latin Modern Roman";
+  font-size: 18px;
+}
+
+.textInfo {
+  text-align: start;
+}
+
+.listInfo {
+  margin-left: 1rem;
+  list-style: disc;
+  text-align: left;
+}

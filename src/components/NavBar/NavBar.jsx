@@ -10,7 +10,7 @@ export default function NavBar() {
           <Link to="/home" className="navlinks">HOME</Link>
         </li>
         <li className="navbaritems">
-          <Link to="/info" className="navlinks">INFORMACION</Link>
+          <Link to="/info" className="navlinks">INFORMACION Y BENEFICIOS</Link>
         </li>
         <li className="navbaritems">
           <Link to="/faqs" className="navlinks">PREGUNTAS FRECUENTES</Link>

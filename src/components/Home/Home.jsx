@@ -4,7 +4,7 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <>
+    <div className="divContainerHome">
       <NavBar />
       <div className="divhome">
         <h1 className="titlehome">
@@ -66,6 +66,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -1,8 +1,11 @@
-.divhome {
-  padding: 1.5rem;
-  background-color: rgba(141, 236, 228, 0.722);
+.divContainerHome{
+  background-image: url("https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1600");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 60%;
+}
+.divhome {
+  padding: 1.5rem;
 }
 
 .titlehome {
@@ -17,7 +20,6 @@
   grid-template-columns: repeat(3, 18rem);
   gap: 1rem;
   justify-content: center;
-  background-color: rgba(98, 215, 236, 0.429);
 }
 
 .divshomeinfo {
@@ -28,11 +30,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 54rem;
-  /* color: whitesmoke; */
   color: black;
   font-size: 26px;
   font-weight: 400;
-  /* font-family: sans-serif; */
 }
 
 .titleshome {
