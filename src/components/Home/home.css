@@ -1,0 +1,40 @@
+.divhome {
+  margin-top: 1.5rem;
+  background-color: rgba(141, 236, 228, 0.722);
+}
+
+.titlehome {
+  margin: 0 auto;
+  width: 36rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.divcolumns {
+  display: grid;
+  grid-template-columns: repeat(3, 18rem);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.divshomeinfo {
+  border: solid black 1px;
+  /* background-color: rgba(48, 206, 234, 0.429); */
+  /* background-image: url("https://www.casapia.com/blog/wp-content/uploads/2018/08/agua-mar-custodio-4.jpg"); */
+  background-image: url("https://sailandtrip.com/wp-content/uploads/2015/05/Agua-de-mar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 54rem;
+  color: whitesmoke;
+  font-size: 26px;
+  font-weight: 400;
+  /* font-family: sans-serif; */
+}
+
+.titleshome {
+  /* font-family: futura-lt-w01-light, sans-serif; */
+  font-size: 30px;
+  font-weight: 600;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
