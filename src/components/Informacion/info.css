@@ -1,6 +1,7 @@
 .divcontainerInfo {
   /* background-image: url("https://images.pexels.com/photos/1072842/pexels-photo-1072842.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
-  background-image: url("https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  /* background-image: url("https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
+  background-image: url("../../assets/pexels-photo-1452701.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60%;

@@ -1,9 +1,10 @@
-.divContainerHome{
-  background-image: url("https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1600");
+.divContainerHome {
+  background-image: url("../../assets/pexels-photo-1452701.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60%;
 }
+
 .divhome {
   padding: 1.5rem;
 }
@@ -24,7 +25,7 @@
 
 .divshomeinfo {
   border: solid black 1px;
-  background-image: url("https://saludsinbulos.com/wp-content/uploads/2019/08/agua-de-mar-superemedio.jpg");
+  background-image: url("../../assets/agua-de-mar-superemedio.jpg");
   /* background-image: url("https://www.casapia.com/blog/wp-content/uploads/2018/08/agua-mar-custodio-4.jpg"); */
   /* background-image: url("https://sailandtrip.com/wp-content/uploads/2015/05/Agua-de-mar.jpg"); */
   background-repeat: no-repeat;
@@ -36,7 +37,6 @@
 }
 
 .titleshome {
-  /* font-family: futura-lt-w01-light, sans-serif; */
   font-size: 30px;
   font-weight: 600;
   color: whitesmoke;

@@ -1,15 +1,5 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-
-// export default function Faqs() {
-//   return (
-//     <>
-//       <NavBar />
-//       <h1>PREGUNTAS FRECUENTES</h1>
-//     </>
-//   );
-// }
-
 import {
   Box,
   Container,
@@ -22,27 +12,33 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { CheckIcon } from "@chakra-ui/icons";
+import "./faqs.css";
 
 export default function Faqs() {
   return (
-    <>
+    <div className="divcontainerfaqs">
       <NavBar />
       <Box p={4}>
         <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
-          <Heading fontSize={"3xl"}>PREGUNTAS FRECUENTES</Heading>
+          <Heading fontSize={"3xl"} color={"whitesmoke"}>
+            PREGUNTAS FRECUENTES
+          </Heading>
         </Stack>
         <Container maxW={"6xl"} mt={10}>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={10}>
-            <HStack align={"top"}>
+            <HStack
+              align={"top"}
+              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+            >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600}>
+                <Text fontWeight={600} align={"start"}>
                   ¿Puede ser consumida por una persona con hipertensión
                   arterial.?
                 </Text>
-                <Text color={"gray.600"} align={"start"}>
+                <Text align={"start"} color={"whitesmoke"}>
                   Si, se puede beber ya que en sus componentes hay sodio y
                   cloro, pero están separados, a diferencia de la sal de mesa,
                   que están unidos. De esta forma están biodisponibles y se
@@ -52,27 +48,18 @@ export default function Faqs() {
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack align={"top"}>
+            <HStack
+              align={"top"}
+              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+            >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600}>¿Los niños pueden consumirla?</Text>
-                <Text color={"gray.600"} align={"start"}>
-                  Lorem ipsum loremmsfasd fojsadnfojansd fojnasdf
-                </Text>
-              </VStack>
-            </HStack>
-            {/* ---------------------------- */}
-            <HStack align={"top"}>
-              <Box color={"green.400"} px={2}>
-                <Icon as={CheckIcon} />
-              </Box>
-              <VStack align={"start"}>
-                <Text fontWeight={600}>
+                <Text fontWeight={600} align={"start"}>
                   ¿Se puede utilizar para nebulización?
                 </Text>
-                <Text color={"gray.600"} align={"start"}>
+                <Text color={"whitesmoke"} align={"start"}>
                   El agua de mar es un excelente descongestivo. Se puede
                   utilizar para nebulizar tanto en forma hiper como isotónica.
                   Con 10 minutos de nebulización, se apreciarán las mejoras en
@@ -81,25 +68,37 @@ export default function Faqs() {
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack align={"top"}>
+            <HStack
+              align={"top"}
+              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+            >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600}>¿Tiene vencimiento?</Text>
-                <Text color={"gray.600"} align={"start"}>
-                  Lorem ipsum loremmsfasd fojsadnfojansd fojnasdf
+                <Text fontWeight={600} align={"start"}>
+                  ¿Tiene vencimiento?
+                </Text>
+                <Text color={"whitesmoke"} align={"start"}>
+                  El agua de mar no tiene vencimiento. Se aconseja si se va a
+                  conservar durante un largo periodo, que sea en un envase de
+                  vidrio
                 </Text>
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack align={"top"}>
+            <HStack
+              align={"top"}
+              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+            >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600}>¿Como se conserva?</Text>
-                <Text color={"gray.600"} align={"start"}>
+                <Text fontWeight={600} align={"start"}>
+                  ¿Como se conserva?
+                </Text>
+                <Text color={"whitesmoke"} align={"start"}>
                   No hay recomendaciones especiales sobre cómo guardarla, sólo
                   protegerla de la luz solar para que no favorezca el
                   crecimiento de algas, lo que tampoco invalidaría su uso.
@@ -107,16 +106,16 @@ export default function Faqs() {
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack align={"top"}>
+            <HStack align={"top"} backgroundColor={"rgba(100, 148, 237, 0.234)"}>
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600}>
+                <Text fontWeight={600} align={"start"}>
                   Realizo alimentación Keto, con ayuno intermitente. ¿Es útil en
                   estos casos?
                 </Text>
-                <Text color={"gray.600"} align={"start"}>
+                <Text color={"whitesmoke"} align={"start"}>
                   Está absolutamente indicada en estos casos, ya que al realizar
                   ayuno intermitente, se pierden más liquido y sales por la
                   orina, por lo que es aconsejable incorporar a la dieta, una
@@ -125,9 +124,28 @@ export default function Faqs() {
                 </Text>
               </VStack>
             </HStack>
+            {/* ---------------------------- */}
+            <HStack
+              align={"top"}
+              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+            >
+              <Box color={"green.400"} px={2}>
+                <Icon as={CheckIcon} />
+              </Box>
+              <VStack align={"start"}>
+                <Text fontWeight={600} align={"start"}>
+                  ¿Hay alguna contra indicación?
+                </Text>
+                <Text color={"whitesmoke"} align={"start"}>
+                  El agua de mar no tiene ninguna contraindicación. Es
+                  perfectamente asimilada por nuestro organismo. De todas
+                  formas, se recomienda no consumir más de medio litro al día.
+                </Text>
+              </VStack>
+            </HStack>
           </SimpleGrid>
         </Container>
       </Box>
-    </>
+    </div>
   );
 }
