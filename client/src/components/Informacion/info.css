@@ -1,10 +1,11 @@
 .divcontainerInfo {
   /* background-image: url("https://images.pexels.com/photos/1072842/pexels-photo-1072842.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
   /* background-image: url("https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
-  background-image: url("../../assets/pexels-photo-1452701.jpeg");
+  /* background-image: url("../../assets/pexels-photo-1452701.jpeg"); */
+  background-image: url('https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 60%;
+  /* background-position: 60%; */
 }
 
 .titleInfo {
@@ -15,7 +16,7 @@
 }
 
 .divInfo {
-  background-color: rgba(100, 148, 237, 0.192);
+  background-color: #16337e75;
   width: 48rem;
   padding: 1rem;
   margin: 0 auto;

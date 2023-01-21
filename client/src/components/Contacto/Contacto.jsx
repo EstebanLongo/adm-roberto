@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-// import { useDispatch } from "react-redux";
+import React, { useState, useEffect, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import NavBar from "../NavBar/NavBar";
 import "./contacto.css";
 
@@ -7,7 +7,9 @@ export default function Contacto() {
   const [form, setForm] = useState({
     nombre: "",
     apellido: "",
+    telefono: "",
     email: "",
+    mensaje: "",
   });
   /*------------------validaciones----------------*/
   const validate = (form) => {
@@ -30,7 +32,10 @@ export default function Contacto() {
       errors.email = "Inserte un email válido";
     }
     if (!form.telefono) {
-      errors.telefono = "Inserte un telefono";
+      errors.telefono = "Inserte un teléfono";
+    }
+    if (!form.mensaje) {
+      errors.mensaje = "Inserte un mensaje";
     }
     return errors;
   };
@@ -43,6 +48,7 @@ export default function Contacto() {
       ...form,
       [e.target.name]: e.target.value,
     });
+    console.log(e.target.value);
     setFormErrors(
       validate({
         ...form,
@@ -51,71 +57,98 @@ export default function Contacto() {
     );
   };
 
-  const handleInputSubmit = async (e) => {
+  // const handleInputSubmit = async (e) => {
+  //   e.preventDefault();
+  //   console.log("SUF", form);
+  //   setFormErrors(validate(form));
+  //   // setIsSubmit(true);
+  //   console.log("FORM ERRORS: ", formErrors);
+  // };
+
+  const formulario = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log("SUF", form);
-    setFormErrors(validate(form));
-    // setIsSubmit(true);
-    console.log("FORM ERRORS: ", formErrors);
+
+    emailjs
+      .sendForm(
+        "service_9bvgdru",
+        "template_op5cdft",
+        formulario.current,
+        "hREScCNY6R6146KCo"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Email enviado correctamente");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
+
   return (
     <>
       <NavBar />
-      <h1>¿DÓNDE ESTAMOS?</h1>
       <h1 className="h1contact">CONTACTO</h1>
       <p className="pcontact">
         Para pedidos, información y sugerencias, por favor, contacta con
         nosotros a través del formulario de contacto o por teléfono al
-        011-34073052
+        011-3086-3988
       </p>
-      <form className="contactform" onSubmit={handleInputSubmit}>
-        <h1 className="titleform">Pedidos | Información | Consultas</h1>
+      <form ref={formulario} onSubmit={sendEmail} className="contactform">
         <div className="divformcontact">
           <input
             placeholder="Nombre"
-            className="inputcontactform"
-            onChange={(e) => handleInputChange(e)}
+            type="text"
             name="nombre"
-            required
+            onChange={(e) => handleInputChange(e)}
+            className="inputcontactform"
           />
-          {/* {formErrors.nombre && <p className="danger">{formErrors.nombre}</p>} */}
+          {formErrors.nombre && <p className="danger">{formErrors.nombre}</p>}
           <input
             placeholder="Apellido"
             className="inputcontactform"
             onChange={(e) => handleInputChange(e)}
             name="apellido"
-            required
           />
-          {/* {formErrors.apellido && (
+          {formErrors.apellido && (
             <p className="danger">{formErrors.apellido}</p>
-          )} */}
-        </div>
-        <div className="divformcontact">
-          <input
-            placeholder="Email"
-            className="inputcontactform"
+          )}
+          <div className="divformcontact">
+            <input
+              placeholder="Email"
+              type="email"
+              onChange={(e) => handleInputChange(e)}
+              name="email"
+              className="inputcontactform"
+            />
+            {formErrors.email && <p className="danger">{formErrors.email}</p>}
+            <input
+              placeholder="Teléfono"
+              className="inputcontactform"
+              onChange={(e) => handleInputChange(e)}
+              name="telefono"
+            />
+            {formErrors.telefono && (
+              <p className="danger">{formErrors.telefono}</p>
+            )}
+          </div>
+
+          <textarea
+            name="mensaje"
+            placeholder="Escriba su mensaje aqui..."
+            className="mensajecontactform"
             onChange={(e) => handleInputChange(e)}
-            name="email"
-            required
           />
-          {/* {formErrors.email && <p className="danger">{formErrors.email}</p>} */}
-          <input
-            placeholder="Telefono"
-            className="inputcontactform"
-            onChange={(e) => handleInputChange(e)}
-            name="telefono"
-            required
-          />
+          {formErrors.mensaje && <p className="danger">{formErrors.mensaje}</p>}
+          <br />
+          <button className="btnformcontact" type="submit">
+            ENVIAR
+          </button>
+          {/* <input type="submit" value="Send" /> */}
         </div>
-        {/* {formErrors.telefono && <p className="danger">{formErrors.telefono}</p>} */}
-        <textarea
-          placeholder="Escriba su mensaje aqui..."
-          className="mensajecontactform"
-        ></textarea>
-        <br />
-        <button className="btnformcontact" type="submit">
-          ENVIAR
-        </button>
       </form>
     </>
   );

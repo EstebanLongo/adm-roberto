@@ -41,7 +41,6 @@ export default function Info() {
               respiratorias.
             </li>
             <li>Mucolítico, disuelve las mucosidades e hidrata las mucosas.</li>
-            <li>Mucolítico, disuelve las mucosidades e hidrata las mucosas.</li>
             <li>Acelera la cicatrización de las heridas.</li>
             <li>
               Su contenido en magnesio contribuye a reducir el estrés y la

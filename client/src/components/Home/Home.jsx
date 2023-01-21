@@ -21,6 +21,20 @@ export default function Home() {
         </p>
       </div>
       <div className="divcolumns">
+      <div className="divshomeinfo">
+          <h1 className="titleshome">EXTRACCIÓN</h1>
+          <p>
+            En BIENDEMAR, extraemos el agua de la costa Atlántica en mar
+            abierto, entre la primera y tercera milla náutica donde sabemos que
+            el agua es de calidad, lejos de afluentes y sin la influencia de
+            aguas continentales.
+            <br />
+            <br />
+            Además de elegir cuidadosamente el lugar de extracción, también
+            tenemos en cuenta el momento de realizarla para que las condiciones
+            del agua sean las óptimas en cuanto a salinidad y turbidez.
+          </p>
+        </div>
         <div className="divshomeinfo">
           <h1 className="titleshome">PROCESO</h1>
           <p>
@@ -51,20 +65,7 @@ export default function Home() {
             <br />- 10 litros.
           </p>
         </div>
-        <div className="divshomeinfo">
-          <h1 className="titleshome">EXTRACCIÓN</h1>
-          <p>
-            En BIENDEMAR, extraemos el agua de la costa Atlántica en mar
-            abierto, entre la primera y tercera milla náutica donde sabemos que
-            el agua es de calidad, lejos de afluentes y sin la influencia de
-            aguas continentales.
-            <br />
-            <br />
-            Además de elegir cuidadosamente el lugar de extracción, también
-            tenemos en cuenta el momento de realizarla para que las condiciones
-            del agua sean las óptimas en cuanto a salinidad y turbidez.
-          </p>
-        </div>
+        
       </div>
     </div>
   );

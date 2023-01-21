@@ -1,5 +1,6 @@
 .contactform {
-  height: 40rem;
+  /* background-color: antiquewhite; */
+  height: 45rem;
   width: 65rem;
   margin: 0 auto;
 }
@@ -23,12 +24,11 @@ input:required:invalid {
   border-color: #ea0404;
 }
 
-/* p.danger {
-  color: red;
+p.danger {
+  color: #ea0404;
   font-size: 14px;
-  text-decoration: solid;
-  display: flex;
-} */
+  font-weight: 600;
+}
 
 .titleform {
   font-size: 32px;
@@ -37,7 +37,8 @@ input:required:invalid {
 }
 
 .divformcontact {
-  height: 5rem;
+  height: 10rem;
+  /* background-color: aquamarine; */
 }
 
 .inputcontactform {
@@ -49,6 +50,7 @@ input:required:invalid {
 }
 
 .mensajecontactform {
+  margin-top: 1rem;
   height: 10rem;
   width: 46rem;
   border-bottom: black solid 1px;

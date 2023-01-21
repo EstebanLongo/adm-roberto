@@ -28,7 +28,7 @@ export default function Faqs() {
           <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={10}>
             <HStack
               align={"top"}
-              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+              backgroundColor={"#16337e75"}
             >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
@@ -50,7 +50,7 @@ export default function Faqs() {
             {/* ---------------------------- */}
             <HStack
               align={"top"}
-              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+              backgroundColor={"#16337e75"}
             >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
@@ -70,7 +70,7 @@ export default function Faqs() {
             {/* ---------------------------- */}
             <HStack
               align={"top"}
-              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+              backgroundColor={"#16337e75"}
             >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
@@ -89,7 +89,7 @@ export default function Faqs() {
             {/* ---------------------------- */}
             <HStack
               align={"top"}
-              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+              backgroundColor={"#16337e75"}
             >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
@@ -106,7 +106,7 @@ export default function Faqs() {
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack align={"top"} backgroundColor={"rgba(100, 148, 237, 0.234)"}>
+            <HStack align={"top"} backgroundColor={"#16337e75"}>
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
@@ -117,7 +117,7 @@ export default function Faqs() {
                 </Text>
                 <Text color={"whitesmoke"} align={"start"}>
                   Está absolutamente indicada en estos casos, ya que al realizar
-                  ayuno intermitente, se pierden más liquido y sales por la
+                  ayuno intermitente, se pierden más liquidos y sales por la
                   orina, por lo que es aconsejable incorporar a la dieta, una
                   completa fuente de sales. De esta forma se evitan los síntomas
                   “gripales”, el cansancio y los calambres.
@@ -127,7 +127,7 @@ export default function Faqs() {
             {/* ---------------------------- */}
             <HStack
               align={"top"}
-              backgroundColor={"rgba(100, 148, 237, 0.234)"}
+              backgroundColor={"#16337e75"}
             >
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
