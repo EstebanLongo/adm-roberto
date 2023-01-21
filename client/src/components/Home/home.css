@@ -1,0 +1,51 @@
+.divContainerHome {
+  /* background-image: url("../../assets/pexels-photo-1452701.jpeg"); */
+  background-image: url('https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60%;
+}
+
+.divhome {
+  padding: 1.5rem;
+}
+
+.titlehome {
+  margin: 0 auto;
+  width: 36rem;
+  font-size: 30px;
+  font-weight: 600;
+  color: #16347e;
+}
+
+.phome {
+  color: #16347e;
+  font-size: 18px;
+}
+
+.divcolumns {
+  display: grid;
+  grid-template-columns: repeat(3, 18rem);
+  gap: 2rem;
+  justify-content: center;
+}
+
+.divshomeinfo {
+  border: solid black 1px;
+  /* background-image: url("../../assets/agua-de-mar-superemedio.jpg"); */
+  /* background-image: url("https://sailandtrip.com/wp-content/uploads/2015/05/Agua-de-mar.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #16337e75;
+  height: 54rem;
+  color: rgba(245, 245, 245, 0.831);
+  font-size: 26px;
+  font-weight: 450;
+}
+
+.titleshome {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(245, 245, 245, 0.831);
+  margin-bottom: 1rem;
+}

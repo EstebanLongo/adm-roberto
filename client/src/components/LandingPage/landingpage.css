@@ -1,0 +1,56 @@
+.landingPage {
+  height: 40.1rem;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/agua-de-mar1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navlanding {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 5rem;
+  background-color: #252525;
+}
+
+.titlenavlanding {
+  color: #dddddd;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.typlanding {
+  margin: 10rem;
+}
+
+.h1landing {
+  display: flex;
+  font-size: 46px;
+  font-weight: 800;
+  width: 20rem;
+  /* color: #dddddd; */
+  color: #16347e;
+}
+
+.planding {
+  display: flex;
+  /* margin: 10rem; */
+  color: #16347e;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 600;
+  width: 22rem;
+}
+
+.btnlanding {
+  margin: -7rem 12rem;
+  border: #16347e solid 2px;
+  color: #16347e;
+  height: 4rem;
+  width: 8rem;
+  font-size: 24px;
+}

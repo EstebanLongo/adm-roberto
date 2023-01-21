@@ -1,0 +1,28 @@
+.navbarlist {
+  /* background: rgb(10, 25, 47);
+  background: linear-gradient(
+    180deg,
+    rgba(10, 25, 47, 1) 56%,
+    rgba(0, 0, 0, 1) 100%
+  ); */
+  background-color: #dbedefa4;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  height: 5em;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbaritems {
+  margin: 15px 20px;
+  color: #205685;
+  cursor: pointer;
+}
+
+.navlinks {
+  text-decoration: none;
+}
