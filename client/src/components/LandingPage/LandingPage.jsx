@@ -1,17 +1,5 @@
 import React from "react";
-import img from "../../assets/agua-de-mar1.jpg";
-import NavBar from "../NavBar/NavBar";
 import { useNavigate } from "react-router-dom";
-import {
-  Container,
-  Stack,
-  Flex,
-  Box,
-  Heading,
-  Text,
-  Image,
-  IconButton,
-} from "@chakra-ui/react";
 import "./landingpage.css";
 
 export default function LandingPage() {
