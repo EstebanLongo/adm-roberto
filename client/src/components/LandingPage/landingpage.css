@@ -38,13 +38,11 @@
   font-size: 46px;
   font-weight: 800;
   width: 20rem;
-  /* color: #dddddd; */
   color: #16347e;
 }
 
 .planding {
   display: flex;
-  /* margin: 10rem; */
   color: #16347e;
   text-align: left;
   font-size: 32px;
