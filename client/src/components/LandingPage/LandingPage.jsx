@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./landingpage.css";
+import img from '../../assets/adm-logo.png'
+/* background-image: url("../../assets/agua-de-mar-superemedio.jpg"); */
 
 export default function LandingPage() {
   const navigate = useNavigate();
@@ -11,7 +13,8 @@ export default function LandingPage() {
   return (
     <>
       <nav className="navlanding">
-        <h1 className="titlenavlanding">Agua de Mar - RL</h1>
+        <img src={img} className='imglogo'/>
+        {/* <h1 className="titlenavlanding">Agua de Mar - RL</h1> */}
       </nav>
       <div className="landingPage">
         <div className="typlanding">

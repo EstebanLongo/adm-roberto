@@ -7,6 +7,11 @@
   background-size: cover;
 }
 
+.imglogo{
+  height: 7rem;
+  border-radius: 35px;
+  margin-left: 2rem;
+}
 .navlanding {
   display: flex;
   flex-direction: row;
