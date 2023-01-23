@@ -20,16 +20,17 @@ export default function Faqs() {
       <NavBar />
       <Box p={4}>
         <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
-          <Heading fontSize={"3xl"} color={"whitesmoke"}>
+          <Heading
+            fontSize={"3xl"}
+            color={"whitesmoke"}
+            fontFamily={"Quicksand"}
+          >
             PREGUNTAS FRECUENTES
           </Heading>
         </Stack>
         <Container maxW={"6xl"} mt={10}>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={10}>
-            <HStack
-              align={"top"}
-              backgroundColor={"#16337e75"}
-            >
+            <HStack align={"top"} backgroundColor={"#16337e75"}>
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
@@ -48,10 +49,7 @@ export default function Faqs() {
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack
-              align={"top"}
-              backgroundColor={"#16337e75"}
-            >
+            <HStack align={"top"} backgroundColor={"#16337e75"}>
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
@@ -68,10 +66,7 @@ export default function Faqs() {
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack
-              align={"top"}
-              backgroundColor={"#16337e75"}
-            >
+            <HStack align={"top"} backgroundColor={"#16337e75"}>
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
@@ -87,10 +82,7 @@ export default function Faqs() {
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack
-              align={"top"}
-              backgroundColor={"#16337e75"}
-            >
+            <HStack align={"top"} backgroundColor={"#16337e75"}>
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>
@@ -125,10 +117,7 @@ export default function Faqs() {
               </VStack>
             </HStack>
             {/* ---------------------------- */}
-            <HStack
-              align={"top"}
-              backgroundColor={"#16337e75"}
-            >
+            <HStack align={"top"} backgroundColor={"#16337e75"}>
               <Box color={"green.400"} px={2}>
                 <Icon as={CheckIcon} />
               </Box>

@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: 60%; */
+  font-family: 'Quicksand';
 }
 
 .titleInfo {
@@ -13,6 +14,7 @@
   font-weight: 400;
   text-align: left;
   margin-bottom: 1rem;
+  font-family: 'Quicksand';
 }
 
 .divInfo {
@@ -22,7 +24,8 @@
   margin: 0 auto;
   color: azure;
   font-weight: 400;
-  font-family: "Latin Modern Roman";
+  /* font-family: "Latin Modern Roman"; */
+  font-family: 'Quicksand';
   font-size: 18px;
 }
 
