@@ -1,19 +1,18 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./landingpage.css";
-import img from '../../assets/adm-logo.png'
-/* background-image: url("../../assets/agua-de-mar-superemedio.jpg"); */
+import img from "../../assets/adm-logo2.png";
 
 export default function LandingPage() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/home");
+    navigate("/inicio");
   };
   return (
     <>
       <nav className="navlanding">
-        <img src={img} className='imglogo'/>
+        <img src={img} alt="img not found" className="imglogo" />
         {/* <h1 className="titlenavlanding">Agua de Mar - RL</h1> */}
       </nav>
       <div className="landingPage">
