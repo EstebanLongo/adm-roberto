@@ -18,7 +18,7 @@ export default function Faqs() {
   return (
     <div className="divcontainerfaqs">
       <NavBar />
-      <Box p={4}>
+      <Box p={4} color={"whitesmoke"}>
         <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
           <Heading
             fontSize={"3xl"}
@@ -35,7 +35,7 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600} align={"start"}>
+                <Text fontWeight={800} align={"start"}>
                   ¿Puede ser consumida por una persona con hipertensión
                   arterial.?
                 </Text>
@@ -54,7 +54,7 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600} align={"start"}>
+                <Text fontWeight={800} align={"start"}>
                   ¿Se puede utilizar para nebulización?
                 </Text>
                 <Text color={"whitesmoke"} align={"start"}>
@@ -71,7 +71,7 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600} align={"start"}>
+                <Text fontWeight={800} align={"start"}>
                   ¿Tiene vencimiento?
                 </Text>
                 <Text color={"whitesmoke"} align={"start"}>
@@ -87,7 +87,7 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600} align={"start"}>
+                <Text fontWeight={800} align={"start"}>
                   ¿Como se conserva?
                 </Text>
                 <Text color={"whitesmoke"} align={"start"}>
@@ -103,7 +103,7 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600} align={"start"}>
+                <Text fontWeight={800} align={"start"}>
                   Realizo alimentación Keto, con ayuno intermitente. ¿Es útil en
                   estos casos?
                 </Text>
@@ -122,7 +122,7 @@ export default function Faqs() {
                 <Icon as={CheckIcon} />
               </Box>
               <VStack align={"start"}>
-                <Text fontWeight={600} align={"start"}>
+                <Text fontWeight={800} align={"start"}>
                   ¿Hay alguna contra indicación?
                 </Text>
                 <Text color={"whitesmoke"} align={"start"}>
