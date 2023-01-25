@@ -9,7 +9,7 @@
   width: 100%;
   justify-content: center;
   gap: 30px;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
 }
 
 .navbaritems {
@@ -20,4 +20,14 @@
 
 .navlinks {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbarlist {
+    width: 100%;
+  }
+  .navbaritems {
+    margin-right: -28px;
+    width: 7rem;
+  }
 }

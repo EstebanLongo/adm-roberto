@@ -1,10 +1,8 @@
 .divContainerHome {
-  /* background-image: url("../../assets/pexels-photo-1452701.jpeg"); */
-  background-image: url('https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url("https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Quicksand';
-  /* background-position: 60%; */
+  font-family: "Quicksand";
 }
 
 .divhome {
@@ -33,10 +31,6 @@
 
 .divshomeinfo {
   border: solid black 1px;
-  /* background-image: url("../../assets/agua-de-mar-superemedio.jpg"); */
-  /* background-image: url("https://sailandtrip.com/wp-content/uploads/2015/05/Agua-de-mar.jpg"); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   background-color: #16337e75;
   height: 58rem;
   color: rgba(245, 245, 245, 0.831);
@@ -49,4 +43,23 @@
   font-weight: 600;
   color: rgba(245, 245, 245, 0.831);
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .divContainerHome {
+    width: 100%
+  }
+  .divhome {
+    width: 100%;
+  }
+  .divcolumns {
+    width: 550px;
+    gap: 1rem;
+    display: flex;
+    height: 100%;
+  }
+  .divshomeinfo {
+    width: 100%;
+    font-size: 16px;
+  }
 }
