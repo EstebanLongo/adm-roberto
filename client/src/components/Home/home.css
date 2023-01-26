@@ -53,7 +53,7 @@
     width: 100%;
   }
   .divcolumns {
-    width: 550px;
+    width: 100%;
     gap: 1rem;
     display: flex;
     height: 100%;
@@ -61,5 +61,24 @@
   .divshomeinfo {
     width: 100%;
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .divContainerHome {
+    width: 100%
+  }
+  .divhome {
+    width: 100%;
+  }
+  .divcolumns {
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    height: 100%;
+  }
+  .divshomeinfo {
+    width: 100%;
+    font-size: 22px;
   }
 }
