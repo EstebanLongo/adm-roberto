@@ -1,9 +1,20 @@
+.divcontainerform{
+  background-image: url("https://images.pexels.com/photos/459261/pexels-photo-459261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+
 .contactform {
-  /* background-color: antiquewhite; */
-  height: 45rem;
+  height: 42rem;
   width: 65rem;
   margin: 0 auto;
   font-family: 'Quicksand';
+  background-color: rgba(245, 245, 245, 0.54);
+}
+
+.telefono{
+  font-size: 20px;
 }
 
 .h1contact {
@@ -43,10 +54,10 @@ p.danger {
 
 .divformcontact {
   height: 10rem;
-  /* background-color: aquamarine; */
 }
 
 .inputcontactform {
+  font-style: italic;
   height: 2rem;
   width: 22rem;
   margin: 1rem;
@@ -54,12 +65,22 @@ p.danger {
   border-bottom: black solid 1px;
 }
 
+.inputcontactform::placeholder {
+  color:#16347e;
+}
+
 .mensajecontactform {
+  font-style: italic;
   margin-top: 1rem;
   height: 10rem;
   width: 46rem;
   border-bottom: black solid 1px;
+  background: none;
   resize: none;
+}
+
+.mensajecontactform::placeholder {
+  color:#16347e;
 }
 
 .btnformcontact {

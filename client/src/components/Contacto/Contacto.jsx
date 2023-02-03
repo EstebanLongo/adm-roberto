@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import NavBar from "../NavBar/NavBar";
 import "./contacto.css";
@@ -57,47 +57,69 @@ export default function Contacto() {
     );
   };
 
-  // const handleInputSubmit = async (e) => {
-  //   e.preventDefault();
-  //   console.log("SUF", form);
-  //   setFormErrors(validate(form));
-  //   // setIsSubmit(true);
-  //   console.log("FORM ERRORS: ", formErrors);
-  // };
+  const handleInputSubmit = async (e) => {
+    e.preventDefault();
+    setFormErrors(validate(form));
+    setFormErrors
+      ? alert("error")
+      : emailjs
+          .sendForm(
+            "service_9bvgdru",
+            "template_op5cdft",
+            formulario.current,
+            "hREScCNY6R6146KCo"
+          )
+          .then(
+            (result) => {
+              console.log(result.text);
+              alert("Email enviado correctamente");
+            },
+            (error) => {
+              console.log(error.text);
+            }
+          );
+    // setIsSubmit(true);
+    console.log("FORM ERRORS: ", formErrors);
+  };
 
   const formulario = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_9bvgdru",
-        "template_op5cdft",
-        formulario.current,
-        "hREScCNY6R6146KCo"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("Email enviado correctamente");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   emailjs
+  //     .sendForm(
+  //       "service_9bvgdru",
+  //       "template_op5cdft",
+  //       formulario.current,
+  //       "hREScCNY6R6146KCo"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         alert("Email enviado correctamente");
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
   return (
-    <>
+    <div className="divcontainerform">
       <NavBar />
       <h1 className="h1contact">CONTACTO</h1>
+      <br />
       <p className="pcontact">
         Para pedidos, información y sugerencias, por favor, contacta con
         nosotros a través del formulario de contacto o por teléfono al
-        011-3086-3988
+        <p className="telefono">011-3086-3988</p>
       </p>
-      <form ref={formulario} onSubmit={sendEmail} className="contactform">
+      <br />
+      <form
+        ref={formulario}
+        onSubmit={handleInputSubmit}
+        className="contactform"
+      >
         <div className="divformcontact">
           <input
             placeholder="Nombre"
@@ -147,9 +169,8 @@ export default function Contacto() {
           <button className="btnformcontact" type="submit">
             ENVIAR
           </button>
-          {/* <input type="submit" value="Send" /> */}
         </div>
       </form>
-    </>
+    </div>
   );
 }

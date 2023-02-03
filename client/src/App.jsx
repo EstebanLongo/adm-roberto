@@ -5,8 +5,8 @@ import Home from "./components/Home/Home.jsx";
 import Info from "./components/Informacion/Info.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Faqs from "./components/Faqs/Faqs.jsx";
-import LandingPage from "./components/LandingPage/LandingPage";
-import Contacto from "./components/Contacto/Contacto";
+import LandingPage from "./components/LandingPage/LandingPage.jsx";
+import Contacto from "./components/Contacto/Contacto.jsx";
 
 function App() {
   return (

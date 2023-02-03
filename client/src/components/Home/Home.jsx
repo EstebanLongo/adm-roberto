@@ -21,7 +21,7 @@ export default function Home() {
         </p>
       </div>
       <div className="divcolumns">
-      <div className="divshomeinfo">
+        <div className="divshomeinfo">
           <h1 className="titleshome">EXTRACCIÓN</h1>
           <p>
             En BIENDEMAR, extraemos el agua de la costa Atlántica en mar
@@ -65,7 +65,6 @@ export default function Home() {
             <br />- 10 litros.
           </p>
         </div>
-        
       </div>
     </div>
   );
