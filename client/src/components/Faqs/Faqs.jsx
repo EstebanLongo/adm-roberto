@@ -22,7 +22,7 @@ export default function Faqs() {
         <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
           <Heading
             fontSize={"3xl"}
-            // color= {"#16347e"}
+            fontWeight={"500"}
             color= {'#205685'}
             fontFamily={"Quicksand"}
           >

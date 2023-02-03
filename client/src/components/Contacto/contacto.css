@@ -14,7 +14,7 @@
 }
 
 .telefono{
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .h1contact {
@@ -22,11 +22,13 @@
   font-size: 38px;
   font-weight: 500;
   color: #205685;
+  
 }
 
 .pcontact {
   color: #205685;
   font-family: 'Quicksand';
+  font-size: 18px;
 }
 
 input:invalid {
