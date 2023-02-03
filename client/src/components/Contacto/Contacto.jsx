@@ -61,7 +61,7 @@ export default function Contacto() {
     e.preventDefault();
     setFormErrors(validate(form));
     setFormErrors
-      ? alert("error")
+      ? alert("Completa todos los campos antes de enviar el formulario!")
       : emailjs
           .sendForm(
             "service_9bvgdru",
