@@ -1,4 +1,4 @@
-.divcontainerform{
+.divcontainerform {
   background-image: url("https://images.pexels.com/photos/459261/pexels-photo-459261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,25 +9,24 @@
   height: 42rem;
   width: 65rem;
   margin: 0 auto;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   background-color: rgba(245, 245, 245, 0.54);
 }
 
-.telefono{
+.telefono {
   font-size: 22px;
 }
 
 .h1contact {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-size: 38px;
   font-weight: 500;
   color: #205685;
-  
 }
 
 .pcontact {
   color: #205685;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-size: 18px;
 }
 
@@ -44,11 +43,11 @@ p.danger {
   color: #ea0404;
   font-size: 14px;
   font-weight: 600;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
 }
 
 .titleform {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-size: 32px;
   font-weight: 400;
   color: #205685;
@@ -68,7 +67,7 @@ p.danger {
 }
 
 .inputcontactform::placeholder {
-  color:#16347e;
+  color: #16347e;
 }
 
 .mensajecontactform {
@@ -82,7 +81,7 @@ p.danger {
 }
 
 .mensajecontactform::placeholder {
-  color:#16347e;
+  color: #16347e;
 }
 
 .btnformcontact {
@@ -92,4 +91,18 @@ p.danger {
   width: 6rem;
   margin-top: 2rem;
   margin-left: -40rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .contactform {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .contactform {
+    width: 100%;
+  }
+  .mensajecontactform {
+    width: 100%;
+  }
 }

@@ -1,5 +1,5 @@
 .landingPage {
-  height: 41rem;
+  height: 45.1rem;
   display: flex;
   flex-direction: column;
   background-image: url("../../assets/agua-de-mar1.jpg");
@@ -57,4 +57,10 @@
   height: 4rem;
   width: 8rem;
   font-size: 24px;
+}
+
+@media only screen and (max-width: 900px) {
+  .landingPage {
+    width: 900px;
+  }
 }
