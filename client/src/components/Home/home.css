@@ -70,7 +70,6 @@
   .divshomeinfo {
     height: 100%;
     width: 100%;
-    font-size: 10px;
   }
 }
 
@@ -83,13 +82,21 @@
   }
   .divcolumns {
     width: 100%;
-    gap: 1rem;
     display: flex;
     height: 100%;
   }
+  .titlehome {
+    width: 100%;
+    font-size: 26px;
+  }
+  .titleshome {
+    width: 100%;
+    font-size: 20px;
+  }
   .divshomeinfo {
     width: 100%;
-    font-size: 16px;
+    height: 100%;
+    font-size: 14px;
   }
 }
 
