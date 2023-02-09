@@ -16,7 +16,7 @@ La pagina web contiene información, beneficios, procesos y preguntas frecuentes
 
 En el inicio nos brinda información sobre el proceso por el cual pasa el agua de mar hasta poder consumirla y también los formatos en los cuales se brinda.
 
-### Informacion y beneficios
+### Información y beneficios
 
 ---
 

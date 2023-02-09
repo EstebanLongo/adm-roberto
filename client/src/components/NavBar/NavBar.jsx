@@ -13,7 +13,7 @@ export default function NavBar() {
         </li>
         <li className="navbaritems">
           <Link to="/info" className="navlinks">
-            INFORMACION Y BENEFICIOS
+            INFORMACIÓN Y BENEFICIOS
           </Link>
         </li>
         <li className="navbaritems">
