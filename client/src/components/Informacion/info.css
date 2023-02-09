@@ -1,8 +1,8 @@
 .divcontainerInfo {
-  background-image: url('https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url("https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   padding-bottom: 2rem;
 }
 
@@ -11,7 +11,7 @@
   font-weight: 400;
   text-align: left;
   margin-bottom: 1rem;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
 }
 
 .divInfo {
@@ -21,7 +21,7 @@
   margin: 0 auto;
   color: azure;
   font-weight: 400;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-size: 18px;
 }
 
@@ -38,11 +38,13 @@
 @media only screen and (max-width: 576px) {
   .divcontainerInfo {
     width: 100%;
-    background-color: rgba(81, 237, 29, 0.523);
   }
-  .divInfo{
+  .divInfo {
     width: 100%;
-    font-size: 16px;
-    margin-right: 18px;
+    font-size: 14px;
+    /* margin-right: 18px; */
+  }
+  .textInfo{
+    width: 100%;
   }
 }
