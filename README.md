@@ -5,8 +5,8 @@ La pagina web contiene información, beneficios, procesos y preguntas frecuentes
 ## Contenidos
 
 1. [INICIO](#inicio)
-2. [INFORMACION Y BENEFICIOS](#info)
-3. [PREGUNTAS FRECUENTES](#faqs)
+2. [INFORMACION Y BENEFICIOS](#Informacion y beneficios)
+3. [PREGUNTAS FRECUENTES](#Preguntas frecuentes)
 4. [CONTACTO](#contacto)
 5. [TECNOLOGIAS](#tecnologias)
 
@@ -28,6 +28,12 @@ También hay lecturas recomendadas
 ---
 
 En esta sección hay una lista de preguntas frecuentes sobre el agua de mar, su consumo y su conservación y contraindicaciones.
+
+### Contacto
+
+---
+
+En esta sección hay un formulario de contacto para realizar pedidos, o pedir mas información.
 
 ## Tecnologias
 
