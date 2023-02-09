@@ -40,4 +40,4 @@ En esta sección hay una lista de preguntas frecuentes sobre el agua de mar, su 
 
 ### Screenshot
 
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+![aguademar](https://user-images.githubusercontent.com/93540065/217866124-eb839da6-c1ce-4ef3-a8aa-40c90ea166e4.PNG)
