@@ -93,16 +93,29 @@ p.danger {
   margin-left: -40rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 400px) {
   .contactform {
     width: 100%;
   }
+  .btnformcontact {
+    margin: 0 auto;
+  }
 }
+
 @media only screen and (max-width: 576px) {
   .contactform {
     width: 100%;
   }
   .mensajecontactform {
+    width: 100%;
+  }
+  .btnformcontact {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contactform {
     width: 100%;
   }
 }
