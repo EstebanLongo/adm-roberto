@@ -5,8 +5,8 @@ La pagina web contiene información, beneficios, procesos y preguntas frecuentes
 ## Contenidos
 
 1. [INICIO](#inicio)
-2. [INFORMACION Y BENEFICIOS](#info)
-3. [PREGUNTAS FRECUENTES](#faqs)
+2. [INFORMACION Y BENEFICIOS](#informacionybeneficios)
+3. [PREGUNTAS FRECUENTES](#preguntas)
 4. [CONTACTO](#contacto)
 5. [TECNOLOGIAS](#tecnologias)
 
@@ -16,18 +16,24 @@ La pagina web contiene información, beneficios, procesos y preguntas frecuentes
 
 En el inicio nos brinda información sobre el proceso por el cual pasa el agua de mar hasta poder consumirla y también los formatos en los cuales se brinda.
 
-### Informacion y beneficios
+### Información y beneficios
 
 ---
 
 En esta sección se nos brinda toda la información necesaria, su composición, como se obtiene, como se consume y los beneficios para nuestra salud que tiene el consumir agua de mar.
-También hay lecturas recomendadas
+También hay lecturas recomendadas.
 
 ### Preguntas frecuentes
 
 ---
 
 En esta sección hay una lista de preguntas frecuentes sobre el agua de mar, su consumo y su conservación y contraindicaciones.
+
+### Contacto
+
+---
+
+En esta sección hay un formulario de contacto para realizar pedidos, o pedir mas información.
 
 ## Tecnologias
 
@@ -41,3 +47,4 @@ En esta sección hay una lista de preguntas frecuentes sobre el agua de mar, su 
 ### Screenshot
 
 ![aguademar](https://user-images.githubusercontent.com/93540065/217866124-eb839da6-c1ce-4ef3-a8aa-40c90ea166e4.PNG)
+
