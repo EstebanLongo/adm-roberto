@@ -16,12 +16,12 @@ La pagina web contiene información, beneficios, procesos y preguntas frecuentes
 
 En el inicio nos brinda información sobre el proceso por el cual pasa el agua de mar hasta poder consumirla y también los formatos en los cuales se brinda.
 
-### Información y beneficios
+### Informacion y beneficios
 
 ---
 
 En esta sección se nos brinda toda la información necesaria, su composición, como se obtiene, como se consume y los beneficios para nuestra salud que tiene el consumir agua de mar.
-También hay lecturas recomendadas.
+También hay lecturas recomendadas
 
 ### Preguntas frecuentes
 
