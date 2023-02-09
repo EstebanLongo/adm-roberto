@@ -112,8 +112,8 @@ export default function Contacto() {
       <p className="pcontact">
         Para pedidos, información y sugerencias, por favor, contacta con
         nosotros a través del formulario de contacto o por teléfono al
-        <p className="telefono">011-3086-3988</p>
       </p>
+      <p className="telefono">011-3086-3988</p>
       <br />
       <form
         ref={formulario}

@@ -15,6 +15,9 @@
 
 .telefono {
   font-size: 22px;
+  color: #205685;
+  font-family: "Quicksand";
+  font-weight: 600;
 }
 
 .h1contact {
