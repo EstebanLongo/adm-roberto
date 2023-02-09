@@ -5,8 +5,8 @@ La pagina web contiene información, beneficios, procesos y preguntas frecuentes
 ## Contenidos
 
 1. [INICIO](#inicio)
-2. [INFORMACION Y BENEFICIOS](#Informacionybeneficios)
-3. [PREGUNTAS FRECUENTES](#Preguntas)
+2. [INFORMACION Y BENEFICIOS](#informacionybeneficios)
+3. [PREGUNTAS FRECUENTES](#preguntas)
 4. [CONTACTO](#contacto)
 5. [TECNOLOGIAS](#tecnologias)
 
