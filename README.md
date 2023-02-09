@@ -40,4 +40,5 @@ En esta sección hay una lista de preguntas frecuentes sobre el agua de mar, su 
 
 ### Screenshot
 
-![Image text](https://raw.githubusercontent.com/EstebanLongo/adm-roberto/main//client/src/assets/aguademar.png)
+![aguademar](https://user-images.githubusercontent.com/93540065/217866124-eb839da6-c1ce-4ef3-a8aa-40c90ea166e4.PNG)
+
