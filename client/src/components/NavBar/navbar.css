@@ -33,3 +33,15 @@
     font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .navbarlist {
+    width: 100%;
+    gap: 15px;
+  }
+  .navbaritems {
+    margin-left: -15px;
+    width: 100%;
+    font-size: 14px;
+  }
+}
