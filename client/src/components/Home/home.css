@@ -58,7 +58,7 @@
   .titlehome {
     width: 100%;
     font-size: 22px;
-    color: rgba(255, 0, 217, 0.324);
+    color: rgba(255, 217, 0, 0.324);
   }
   .titleshome {
     width: 100%;
@@ -68,11 +68,10 @@
     width: 100%;
     height: 100%;
     font-size: 16px;
-    gap: 2px;
-    margin-left: 2.8rem;
+    gap: 1px;
+    margin-left: 3rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* grid-template-columns: repeat(2, 80px, 1fr); */
+    grid-template-columns: repeat(2, 8rem);
   }
   .divshomeinfo {
     height: 100%;
