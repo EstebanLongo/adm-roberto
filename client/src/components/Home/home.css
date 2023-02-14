@@ -58,7 +58,7 @@
   .titlehome {
     width: 100%;
     font-size: 22px;
-    color: rgba(255, 0, 247, 0.324);
+    color: #205685;
   }
   .titleshome {
     width: 100%;
@@ -68,8 +68,6 @@
     width: 100%;
     height: 100%;
     font-size: 16px;
-    /* gap: 1px; */
-    margin-left: 1rem;
     flex-flow: column;
   }
   .divshomeinfo {
