@@ -58,7 +58,7 @@
   .titlehome {
     width: 100%;
     font-size: 22px;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 149, 0);
   }
   .titleshome {
     width: 100%;
@@ -67,12 +67,13 @@
   .divcolumns {
     width: 100%;
     height: 100%;
+    font-size: 16px;
+    gap: 2px;
+    margin-left: 2rem;
   }
   .divshomeinfo {
     height: 100%;
     width: 100%;
-    font-size: 16px;
-    gap: 2px;
   }
 }
 
