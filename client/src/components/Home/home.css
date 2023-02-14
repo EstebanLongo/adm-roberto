@@ -58,7 +58,7 @@
   .titlehome {
     width: 100%;
     font-size: 22px;
-    color: red;
+    color: green;
   }
   .titleshome {
     width: 100%;
@@ -67,6 +67,8 @@
   .divcolumns {
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .divshomeinfo {
     height: 100%;
