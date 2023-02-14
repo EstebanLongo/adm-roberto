@@ -22,6 +22,18 @@
   text-decoration: none;
 }
 
+@media only screen and (max-width: 400px) {
+  .navbarlist {
+    width: 100%;
+    gap: 8px;
+  }
+  .navbaritems {
+    margin-left: -15px;
+    width: 100%;
+    font-size: 10px;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .navbarlist {
     width: 100%;
